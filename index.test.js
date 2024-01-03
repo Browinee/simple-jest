@@ -1,6 +1,5 @@
 const fs = require("fs");
 const { sum, read } = require("./");
-
 jest.mock("fs");
 
 test("sum test", () => {

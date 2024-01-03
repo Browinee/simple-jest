@@ -1,4 +1,5 @@
-const jest = {
-  fn(impl = () => {}) {},
-  mock(path, mockExports = {}) {},
-};
+function sum(a, b) {
+  return a + b;
+}
+
+module.exports = sum;
